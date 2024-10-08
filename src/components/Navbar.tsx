@@ -16,21 +16,20 @@ export const Navbar = () => {
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
-        <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+        <Link href="https://hprod.info">
+          <span className="flex items-center space-x-2 text-2xl font-medium">
               <span>
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/brands/huragan.svg"
                   width="32"
                   alt="N"
                   height="32"
-                  className="w-40"
+                  className="w-36"
                 />
               </span>
           </span>
         </Link>
 
-        {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             <ThemeChanger />
         </div>
