@@ -11,7 +11,7 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
+  title: "",
   desc: "",
   image: benefitOneImg,
   bullets: [
@@ -28,6 +28,11 @@ const benefitOne = {
     {
       title: "WE USE",
       desc: "all the power of storytelling",
+      icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "WE WORK",
+      desc: "with any theme. Not just motorsport",
       icon: <CursorArrowRaysIcon />,
     },
   ],
