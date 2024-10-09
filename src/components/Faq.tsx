@@ -36,21 +36,21 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What services do you offer?",
+    answer: "We provide a range of video production services including corporate videos, promotional content, event coverage, animation, and more.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "What is your production process?",
+    answer: "Our process typically includes pre-production planning, filming, post-production editing, and final delivery. We collaborate closely with you at each stage to ensure your vision is realized.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Do you provide scripts or do we need to provide one?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We can assist with scriptwriting if needed. We also welcome any scripts or ideas you have to ensure the final product aligns with your vision.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Do you only work with motorsport?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "While we have a strong focus on motorsport, we also create content for various industries and themes.",
   },
 ];
